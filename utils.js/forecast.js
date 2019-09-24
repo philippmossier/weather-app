@@ -1,5 +1,5 @@
 const request = require("request")
-// Darksky API
+// Darksky API outputs huge weather data by coordinates
 const forecast = (latitude, longitude, callback) => {
     const url = `https://api.darksky.net/forecast/e5ee0a6d5bf1fbf6ef820e8613d408e6/${latitude},${longitude}?lang=de&units=si`
 
